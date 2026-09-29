@@ -3,12 +3,12 @@ using Microsoft.AspNetCore.Mvc;
 namespace GitActions.Api.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("[controller]")]W
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries =
         [
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Sccorching"
         ];
 
         [HttpGet(Name = "GetWeatherForecast")]
